@@ -8,7 +8,88 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-  
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="daily-products.html">Daily Products</a>
+            <a class="nav-link" href="">Cakes</a>
+            <a class="nav-link" href="">Cupcakes</a>
+            <a class="nav-link disabled"</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      <div>
+        <h2>Daily Products</h2>
+        <h4>Need a product now?</h4>
+        <h4>Uber Eats</h4>
+        <h4>Schedule as a PICK UP or DELIVERY</h4>
+      </div>
+
+      <div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+           All 
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Cakes</button></li>
+            <li><button class="dropdown-item" type="button">Cupcakes</button></li>
+            <li><button class="dropdown-item" type="button">Cookies & Donuts</button></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Price Range 
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">$20 - $40</button></li>
+            <li><button class="dropdown-item" type="button">$40 - $60</button></li>
+            <li><button class="dropdown-item" type="button">$60+</button></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img src="images/daily-product/daily-products-1.jpeg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry Shortcake</h5>
+              <p class="card-text">$45.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <p>We do require a credit card to accompany all orders</p>
+      <p>Cancellation Policy: 3 Business Days notice</p>
+      <p>Monday to Saturday - 9 am - 4 pm Closed Sundays</p>
+    </div>
+
+    <div>
+      <p>1200 Wellington St West, Ottawa</p>
+      <p>613-721-9062</p>
+      <p>thecakeshop1200@gmail.com</p>
+    </div>
+
+    <div>
+      <p><small>Copyright 2015 The Cake Shop Inc. All rights reserved.</small></p>
+    </div>
+  </footer>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
