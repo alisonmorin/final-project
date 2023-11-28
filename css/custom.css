@@ -11855,5 +11855,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.beige {
+  background-color: #fefce3;
+}
+
+.brown {
+  background-color: #785c4e;
+}
+
+.pink {
+  background-color: #efdbdd;
+}
+
+img {
+  width: 100%;
+}
+
+ul li {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 /*# sourceMappingURL=custom.css.map */
