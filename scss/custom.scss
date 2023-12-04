@@ -1,6 +1,11 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
-
+$primary:    #fefce3;
+$secondary:  #785c4e;
+$sucess:  #efdbdd;
+$info:    #9e1b4d;
+$light:   #fefefe;
+$dark:    #000000;
 // Include any default variable overrides here (though functions won't be available)
 
 
@@ -15,23 +20,29 @@
 }
 
 .beige {
-  background-color: #fefce3;
+  background-color: $primary;
 }
 
 .brown {
-  background-color: #785c4e;
+  background-color: $secondary;
 }
 
 .pink {
-  background-color: #efdbdd;
+  background-color: $sucess;
 }
 
-img {
-  width: 100%;
+.hero img {
+  width: 100%
 }
+
+
+
+
+
 
 ul li {
   display: flex;
+  align-self: center;
 }
 
 ul {
