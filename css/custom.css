@@ -11871,6 +11871,24 @@ textarea.form-control-lg {
   background-color: #efdbdd;
 }
 
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+div {
+  font-family: "Merriweather", serif;
+}
+
 .hero img {
   width: 100%;
   height: 300px;
