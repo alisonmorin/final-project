@@ -86,8 +86,23 @@ ul {
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .card-row {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero img {
+    height: 400px;
+  }
+  
+  .cake-gallery-right {
+    margin-top: 13rem;
+    margin-left: -10rem;
+  }
+
+  .intro {
     flex-direction: column;
   }
 }
