@@ -11935,8 +11935,14 @@ ul {
     margin-top: 13rem;
     margin-left: -10rem;
   }
-  .intro {
-    flex-direction: column;
+}
+@media (min-width: 1200px) {
+  .hero img {
+    height: 600px;
+  }
+  .cake-gallery-right {
+    margin-top: 10rem;
+    margin-left: -5rem;
   }
 }
 
